@@ -5,6 +5,8 @@
 SUMMARY = "U-Boot for Variscite's i.MX boards"
 require recipes-bsp/u-boot/u-boot.inc
 
+UBOOT_INITIAL_ENV=""
+
 PROVIDES += "u-boot"
 DEPENDS += "bison-native bc-native dtc-native"
 
